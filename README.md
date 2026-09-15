@@ -75,12 +75,12 @@ Ein Windows-Audio-Manager, der bei jedem Lauf den kompletten Audio-Zustand auf e
 ```json
 {
   "DefaultPlaybackDeviceID":   "...",
-  "DefaultPlaybackDeviceName": "Gaming",
+  "DefaultPlaybackDeviceName": "Gaming Headset",
   "DefaultRecordingDeviceID":  "...",
-  "DefaultRecordingDeviceName":"Alert (Mikrofon-Current)",
-  "DefaultPlaybackVolume":  74,
-  "DefaultRecordingVolume": 74,
-  "AllowedPlaybackDevices":   [{ "ID": "...", "Name": "Alert", "Volume": 74, "Muted": false }],
+  "DefaultRecordingDeviceName":"Microphone (Current)",
+  "DefaultPlaybackVolume":  80,
+  "DefaultRecordingVolume": 80,
+  "AllowedPlaybackDevices":   [{ "ID": "...", "Name": "Alerts", "Volume": 80, "Muted": false }],
   "AllowedRecordingDevices":  [...],
   "DisabledPlaybackDevices":  [{ "ID": "...", "Name": "SPDIF Interface" }],
   "DisabledRecordingDevices": [...],
@@ -113,9 +113,9 @@ Ein Windows-Audio-Manager, der bei jedem Lauf den kompletten Audio-Zustand auf e
 ## 📌 Betriebs-Empfehlungen
 
 - **Scheduled Task** als `SYSTEM` mit `RunLevel Highest`
-- **Trigger**: Bei Anmeldung + alle 15 Minuten
-- **Config-Backup** unter `AudioConfig.json.golden` aufbewahren
-- **Logs** unter `C:\Logs\audio-enforce.csv` mit automatischer Rotation
+- **Trigger**: Bei Anmeldung (+ alle 15 Minuten Optional)
+- **Config-Backup** unter `AudioConfig.json.golden` aufbewahren (Optional)
+- **Logs** unter `C:\Logs\audio-enforce.csv` mit automatischer Rotation (200KB)
 
 ---
 
