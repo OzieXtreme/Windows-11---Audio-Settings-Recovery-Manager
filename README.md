@@ -61,7 +61,6 @@ Ein Windows-Audio-Manager, der bei jedem Lauf den kompletten Audio-Zustand auf e
   - Idempotent – auch bereits unsichtbare Geräte werden erneut ausgeblendet
   - `$isReallyVisible` (State 0x1) verhindert Endlos-Re-Disabling bei UNPLUGGED-Geräten
 - **Neue Geräte**: Alles, was in der Registry existiert, aber weder Allowed noch Disabled noch Exception ist, wird als **Exception** eingetragen (bleibt unangetastet)
-- **Kein automatisches Verstecken** von unbekannten Geräten mehr – nur dokumentieren
 
 ### Abschnitt 9: Zusammenfassung
 - Tabellarische Ausgabe aller Änderungen nach Kategorie
