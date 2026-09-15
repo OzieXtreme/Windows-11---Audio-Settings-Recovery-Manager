@@ -2,6 +2,13 @@
 
 # 📋 Zusammenfassung: Enforce-AudioSettings.ps1
 
+## Pfade Anpassen:
+
+### Ganz oben am Anfang des Skripts könnt ihr den Pfad anpassen.
+-     `[string]$ConfigPath = "C:\Skripts\AudioRecovery\AudioConfig.json",
+      `[string]$LogPath    = "C:\Logs\audio-enforce.csv",
+
+
 ## 🎯 Zweck
 
 Ein Windows-Audio-Manager, der bei jedem Lauf den kompletten Audio-Zustand auf einen in einer JSON-Config definierten Soll-Zustand zurücksetzt. Robust gegen Windows-Updates, USB-Umsteckereignisse und Nutzermanipulation.
