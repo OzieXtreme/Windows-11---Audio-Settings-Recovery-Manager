@@ -1,6 +1,6 @@
 # --- Konfiguration ---
-$TaskName   = "Audio-Restore-Handler"
-$TaskPath   = "\OzieXtreme\"
+$TaskName   = "Audio-Restore-Manager"
+$TaskPath   = "\Scripts\"
 $ScriptPath = "C:\Skripts\AudioRecovery\Enforce-AudioSettings.ps1"
 
 # --- Task-Aktion ---
@@ -27,5 +27,5 @@ Register-ScheduledTask `
     -Trigger    $Trigger `
     -Principal  $Principal `
     -Settings   $Settings `
-    -Description "Restore all Audio Settings beim Systemstart." `
+    -Description "Restore all Audio configs at systems starts." `
     -Force
