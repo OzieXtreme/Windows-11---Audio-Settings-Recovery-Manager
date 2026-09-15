@@ -8,6 +8,9 @@
 -     `[string]$ConfigPath = "C:\Skripts\AudioRecovery\AudioConfig.json",
       `[string]$LogPath    = "C:\Logs\audio-enforce.csv",
 
+### Das müsst ihr auch anpassen in dem AutoStartTaskSchedulerAudioRecover.ps1
+-     `$ScriptPath = "C:\Skripts\AudioRecovery\Enforce-AudioSettings.ps1"
+
 
 ## 🎯 Zweck
 
